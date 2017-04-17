@@ -24,3 +24,6 @@ body {
 #start_game {
     margin-bottom: 50px;
 }
+#send_results {
+    display: none;
+}

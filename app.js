@@ -45,6 +45,7 @@ var Memory = function() {
         var endTime = new Date();
         var resultTime = (endTime - this.timer) / 1000;
         $('#notification').append('<p class="bg-success">Jeu fini en '+ resultTime + ' secondes !</p>');
+        $('#send_results').show();
     }
 
     this.addNotification = function(message, success) {
